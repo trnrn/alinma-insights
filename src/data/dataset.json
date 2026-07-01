@@ -1,0 +1,2206 @@
+{
+  "customer": {
+    "customerId": "ALI-100001",
+    "name": "Synthetic Customer",
+    "city": "Riyadh",
+    "bank": "Alinma Bank",
+    "occupation": "Software Engineer",
+    "monthlySalary": 16500,
+    "currentBalance": 22845.73,
+    "currency": "SAR"
+  },
+  "transactions": [
+    {
+      "id": "TX0001",
+      "date": "2026-01-01T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.52,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0002",
+      "date": "2026-01-02T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.6,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0003",
+      "date": "2026-01-02T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 560.29,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0004",
+      "date": "2026-01-02T21:00:00",
+      "merchant": "Jahez",
+      "amount": 87.6,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0005",
+      "date": "2026-01-05T00:00:00",
+      "merchant": "STC",
+      "amount": 285,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0006",
+      "date": "2026-01-05T00:00:00",
+      "merchant": "Saudi Electricity Company",
+      "amount": 205,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0007",
+      "date": "2026-01-05T00:00:00",
+      "merchant": "National Water Company",
+      "amount": 88,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0008",
+      "date": "2026-01-05T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.08,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0009",
+      "date": "2026-01-06T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.87,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0010",
+      "date": "2026-01-07T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.85,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0011",
+      "date": "2026-01-08T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.12,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0012",
+      "date": "2026-01-09T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.3,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0013",
+      "date": "2026-01-09T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 526.17,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0014",
+      "date": "2026-01-09T21:00:00",
+      "merchant": "Jahez",
+      "amount": 61.59,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0015",
+      "date": "2026-01-12T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.03,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0016",
+      "date": "2026-01-13T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.91,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0017",
+      "date": "2026-01-14T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.1,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0018",
+      "date": "2026-01-15T00:00:00",
+      "merchant": "Netflix",
+      "amount": 62,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0019",
+      "date": "2026-01-15T00:00:00",
+      "merchant": "Spotify",
+      "amount": 23,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0020",
+      "date": "2026-01-15T00:00:00",
+      "merchant": "Shahid",
+      "amount": 58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0021",
+      "date": "2026-01-15T00:00:00",
+      "merchant": "iCloud+",
+      "amount": 11,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0022",
+      "date": "2026-01-15T00:00:00",
+      "merchant": "Google One",
+      "amount": 8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0023",
+      "date": "2026-01-15T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.93,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0024",
+      "date": "2026-01-16T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.42,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0025",
+      "date": "2026-01-16T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 575.37,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0026",
+      "date": "2026-01-16T21:00:00",
+      "merchant": "Jahez",
+      "amount": 122.53,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0027",
+      "date": "2026-01-19T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.54,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0028",
+      "date": "2026-01-20T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.16,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0029",
+      "date": "2026-01-21T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.57,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0030",
+      "date": "2026-01-22T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.15,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0031",
+      "date": "2026-01-23T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.28,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0032",
+      "date": "2026-01-23T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 335.48,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0033",
+      "date": "2026-01-23T21:00:00",
+      "merchant": "Jahez",
+      "amount": 68.31,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0034",
+      "date": "2026-01-26T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.42,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0035",
+      "date": "2026-01-27T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.3,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0036",
+      "date": "2026-01-28T00:00:00",
+      "merchant": "Alinma Payroll",
+      "amount": 16500,
+      "currency": "SAR",
+      "type": "Credit",
+      "category": "Income"
+    },
+    {
+      "id": "TX0037",
+      "date": "2026-01-28T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.64,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0038",
+      "date": "2026-01-29T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.41,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0039",
+      "date": "2026-01-30T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.42,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0040",
+      "date": "2026-01-30T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 454.97,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0041",
+      "date": "2026-01-30T21:00:00",
+      "merchant": "Jahez",
+      "amount": 99.82,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0042",
+      "date": "2026-02-02T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.0,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0043",
+      "date": "2026-02-03T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.62,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0044",
+      "date": "2026-02-04T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.57,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0045",
+      "date": "2026-02-05T00:00:00",
+      "merchant": "STC",
+      "amount": 285,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0046",
+      "date": "2026-02-05T00:00:00",
+      "merchant": "Saudi Electricity Company",
+      "amount": 205,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0047",
+      "date": "2026-02-05T00:00:00",
+      "merchant": "National Water Company",
+      "amount": 88,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0048",
+      "date": "2026-02-05T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.78,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0049",
+      "date": "2026-02-06T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.98,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0050",
+      "date": "2026-02-06T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 578.88,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0051",
+      "date": "2026-02-06T21:00:00",
+      "merchant": "Jahez",
+      "amount": 113.82,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0052",
+      "date": "2026-02-09T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.08,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0053",
+      "date": "2026-02-10T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.15,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0054",
+      "date": "2026-02-11T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.3,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0055",
+      "date": "2026-02-12T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.89,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0056",
+      "date": "2026-02-13T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.7,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0057",
+      "date": "2026-02-13T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 519.23,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0058",
+      "date": "2026-02-13T21:00:00",
+      "merchant": "Jahez",
+      "amount": 83.03,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0059",
+      "date": "2026-02-15T00:00:00",
+      "merchant": "Netflix",
+      "amount": 62,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0060",
+      "date": "2026-02-15T00:00:00",
+      "merchant": "Spotify",
+      "amount": 23,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0061",
+      "date": "2026-02-15T00:00:00",
+      "merchant": "Shahid",
+      "amount": 58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0062",
+      "date": "2026-02-15T00:00:00",
+      "merchant": "iCloud+",
+      "amount": 11,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0063",
+      "date": "2026-02-15T00:00:00",
+      "merchant": "Google One",
+      "amount": 8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0064",
+      "date": "2026-02-16T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.47,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0065",
+      "date": "2026-02-17T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.87,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0066",
+      "date": "2026-02-18T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0067",
+      "date": "2026-02-19T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.47,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0068",
+      "date": "2026-02-20T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.01,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0069",
+      "date": "2026-02-20T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 374.53,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0070",
+      "date": "2026-02-20T21:00:00",
+      "merchant": "Jahez",
+      "amount": 118.72,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0071",
+      "date": "2026-02-23T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.7,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0072",
+      "date": "2026-02-24T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0073",
+      "date": "2026-02-25T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.97,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0074",
+      "date": "2026-02-26T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.73,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0075",
+      "date": "2026-02-27T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.29,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0076",
+      "date": "2026-02-27T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 522.41,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0077",
+      "date": "2026-02-27T21:00:00",
+      "merchant": "Jahez",
+      "amount": 73.88,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0078",
+      "date": "2026-02-28T00:00:00",
+      "merchant": "Alinma Payroll",
+      "amount": 16500,
+      "currency": "SAR",
+      "type": "Credit",
+      "category": "Income"
+    },
+    {
+      "id": "TX0079",
+      "date": "2026-03-02T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.87,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0080",
+      "date": "2026-03-03T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.33,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0081",
+      "date": "2026-03-04T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.64,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0082",
+      "date": "2026-03-05T00:00:00",
+      "merchant": "STC",
+      "amount": 285,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0083",
+      "date": "2026-03-05T00:00:00",
+      "merchant": "Saudi Electricity Company",
+      "amount": 205,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0084",
+      "date": "2026-03-05T00:00:00",
+      "merchant": "National Water Company",
+      "amount": 88,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0085",
+      "date": "2026-03-05T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0086",
+      "date": "2026-03-06T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.18,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0087",
+      "date": "2026-03-06T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 384.06,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0088",
+      "date": "2026-03-06T21:00:00",
+      "merchant": "Jahez",
+      "amount": 62.07,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0089",
+      "date": "2026-03-09T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.6,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0090",
+      "date": "2026-03-10T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.97,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0091",
+      "date": "2026-03-11T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.78,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0092",
+      "date": "2026-03-12T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.59,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0093",
+      "date": "2026-03-13T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.47,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0094",
+      "date": "2026-03-13T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 369.58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0095",
+      "date": "2026-03-13T21:00:00",
+      "merchant": "Jahez",
+      "amount": 106.23,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0096",
+      "date": "2026-03-15T00:00:00",
+      "merchant": "Netflix",
+      "amount": 62,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0097",
+      "date": "2026-03-15T00:00:00",
+      "merchant": "Spotify",
+      "amount": 23,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0098",
+      "date": "2026-03-15T00:00:00",
+      "merchant": "Shahid",
+      "amount": 58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0099",
+      "date": "2026-03-15T00:00:00",
+      "merchant": "iCloud+",
+      "amount": 11,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0100",
+      "date": "2026-03-15T00:00:00",
+      "merchant": "Google One",
+      "amount": 8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0101",
+      "date": "2026-03-16T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.31,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0102",
+      "date": "2026-03-17T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.44,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0103",
+      "date": "2026-03-18T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.17,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0104",
+      "date": "2026-03-19T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.21,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0105",
+      "date": "2026-03-20T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.13,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0106",
+      "date": "2026-03-20T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 390.15,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0107",
+      "date": "2026-03-20T21:00:00",
+      "merchant": "Jahez",
+      "amount": 122.97,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0108",
+      "date": "2026-03-23T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.03,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0109",
+      "date": "2026-03-24T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.04,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0110",
+      "date": "2026-03-25T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.85,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0111",
+      "date": "2026-03-26T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.11,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0112",
+      "date": "2026-03-27T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.94,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0113",
+      "date": "2026-03-27T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 542.14,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0114",
+      "date": "2026-03-27T21:00:00",
+      "merchant": "Jahez",
+      "amount": 99.93,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0115",
+      "date": "2026-03-28T00:00:00",
+      "merchant": "Alinma Payroll",
+      "amount": 16500,
+      "currency": "SAR",
+      "type": "Credit",
+      "category": "Income"
+    },
+    {
+      "id": "TX0116",
+      "date": "2026-03-30T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.0,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0117",
+      "date": "2026-03-31T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.89,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0118",
+      "date": "2026-04-01T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.13,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0119",
+      "date": "2026-04-02T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0120",
+      "date": "2026-04-03T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.73,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0121",
+      "date": "2026-04-03T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 405.53,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0122",
+      "date": "2026-04-03T21:00:00",
+      "merchant": "Jahez",
+      "amount": 75.74,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0123",
+      "date": "2026-04-05T00:00:00",
+      "merchant": "STC",
+      "amount": 285,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0124",
+      "date": "2026-04-05T00:00:00",
+      "merchant": "Saudi Electricity Company",
+      "amount": 205,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0125",
+      "date": "2026-04-05T00:00:00",
+      "merchant": "National Water Company",
+      "amount": 88,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0126",
+      "date": "2026-04-06T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.73,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0127",
+      "date": "2026-04-07T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.9,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0128",
+      "date": "2026-04-08T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.83,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0129",
+      "date": "2026-04-09T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.43,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0130",
+      "date": "2026-04-10T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.01,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0131",
+      "date": "2026-04-10T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 416.64,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0132",
+      "date": "2026-04-10T21:00:00",
+      "merchant": "Jahez",
+      "amount": 86.72,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0133",
+      "date": "2026-04-13T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.59,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0134",
+      "date": "2026-04-14T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.84,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0135",
+      "date": "2026-04-15T00:00:00",
+      "merchant": "Netflix",
+      "amount": 62,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0136",
+      "date": "2026-04-15T00:00:00",
+      "merchant": "Spotify",
+      "amount": 23,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0137",
+      "date": "2026-04-15T00:00:00",
+      "merchant": "Shahid",
+      "amount": 58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0138",
+      "date": "2026-04-15T00:00:00",
+      "merchant": "iCloud+",
+      "amount": 11,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0139",
+      "date": "2026-04-15T00:00:00",
+      "merchant": "Google One",
+      "amount": 8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0140",
+      "date": "2026-04-15T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.75,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0141",
+      "date": "2026-04-16T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.67,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0142",
+      "date": "2026-04-17T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.83,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0143",
+      "date": "2026-04-17T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 360.08,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0144",
+      "date": "2026-04-17T21:00:00",
+      "merchant": "Jahez",
+      "amount": 118.59,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0145",
+      "date": "2026-04-20T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.18,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0146",
+      "date": "2026-04-21T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.49,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0147",
+      "date": "2026-04-22T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.9,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0148",
+      "date": "2026-04-23T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.39,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0149",
+      "date": "2026-04-24T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.4,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0150",
+      "date": "2026-04-24T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 371.11,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0151",
+      "date": "2026-04-24T21:00:00",
+      "merchant": "Jahez",
+      "amount": 121.51,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0152",
+      "date": "2026-04-27T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.82,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0153",
+      "date": "2026-04-28T00:00:00",
+      "merchant": "Alinma Payroll",
+      "amount": 16500,
+      "currency": "SAR",
+      "type": "Credit",
+      "category": "Income"
+    },
+    {
+      "id": "TX0154",
+      "date": "2026-04-28T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.04,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0155",
+      "date": "2026-04-29T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.21,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0156",
+      "date": "2026-04-30T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.04,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0157",
+      "date": "2026-05-01T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.39,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0158",
+      "date": "2026-05-01T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 570.3,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0159",
+      "date": "2026-05-01T21:00:00",
+      "merchant": "Jahez",
+      "amount": 71.69,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0160",
+      "date": "2026-05-04T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.05,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0161",
+      "date": "2026-05-05T00:00:00",
+      "merchant": "STC",
+      "amount": 285,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0162",
+      "date": "2026-05-05T00:00:00",
+      "merchant": "Saudi Electricity Company",
+      "amount": 205,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0163",
+      "date": "2026-05-05T00:00:00",
+      "merchant": "National Water Company",
+      "amount": 88,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0164",
+      "date": "2026-05-05T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.57,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0165",
+      "date": "2026-05-06T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.24,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0166",
+      "date": "2026-05-07T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.96,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0167",
+      "date": "2026-05-08T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.93,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0168",
+      "date": "2026-05-08T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 365.61,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0169",
+      "date": "2026-05-08T21:00:00",
+      "merchant": "Jahez",
+      "amount": 105.42,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0170",
+      "date": "2026-05-11T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.69,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0171",
+      "date": "2026-05-12T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.28,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0172",
+      "date": "2026-05-13T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.59,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0173",
+      "date": "2026-05-14T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.52,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0174",
+      "date": "2026-05-15T00:00:00",
+      "merchant": "Netflix",
+      "amount": 62,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0175",
+      "date": "2026-05-15T00:00:00",
+      "merchant": "Spotify",
+      "amount": 23,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0176",
+      "date": "2026-05-15T00:00:00",
+      "merchant": "Shahid",
+      "amount": 58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0177",
+      "date": "2026-05-15T00:00:00",
+      "merchant": "iCloud+",
+      "amount": 11,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0178",
+      "date": "2026-05-15T00:00:00",
+      "merchant": "Google One",
+      "amount": 8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0179",
+      "date": "2026-05-15T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.14,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0180",
+      "date": "2026-05-15T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 392.86,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0181",
+      "date": "2026-05-15T21:00:00",
+      "merchant": "Jahez",
+      "amount": 119.22,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0182",
+      "date": "2026-05-18T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.04,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0183",
+      "date": "2026-05-19T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.17,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0184",
+      "date": "2026-05-20T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 20.69,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0185",
+      "date": "2026-05-21T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.46,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0186",
+      "date": "2026-05-22T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.6,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0187",
+      "date": "2026-05-22T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 365.83,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0188",
+      "date": "2026-05-22T21:00:00",
+      "merchant": "Jahez",
+      "amount": 80.81,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0189",
+      "date": "2026-05-25T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.72,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0190",
+      "date": "2026-05-26T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.32,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0191",
+      "date": "2026-05-27T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.62,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0192",
+      "date": "2026-05-28T00:00:00",
+      "merchant": "Alinma Payroll",
+      "amount": 16500,
+      "currency": "SAR",
+      "type": "Credit",
+      "category": "Income"
+    },
+    {
+      "id": "TX0193",
+      "date": "2026-05-28T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.91,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0194",
+      "date": "2026-05-29T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0195",
+      "date": "2026-05-29T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 490.8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0196",
+      "date": "2026-05-29T21:00:00",
+      "merchant": "Jahez",
+      "amount": 103.39,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0197",
+      "date": "2026-06-01T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.84,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0198",
+      "date": "2026-06-02T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 19.4,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0199",
+      "date": "2026-06-03T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.35,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0200",
+      "date": "2026-06-04T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.18,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0201",
+      "date": "2026-06-05T00:00:00",
+      "merchant": "STC",
+      "amount": 285,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0202",
+      "date": "2026-06-05T00:00:00",
+      "merchant": "Saudi Electricity Company",
+      "amount": 205,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0203",
+      "date": "2026-06-05T00:00:00",
+      "merchant": "National Water Company",
+      "amount": 88,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Utilities"
+    },
+    {
+      "id": "TX0204",
+      "date": "2026-06-05T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.1,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0205",
+      "date": "2026-06-05T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 502.25,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0206",
+      "date": "2026-06-05T21:00:00",
+      "merchant": "Jahez",
+      "amount": 122.39,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0207",
+      "date": "2026-06-08T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 18.21,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0208",
+      "date": "2026-06-09T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.36,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0209",
+      "date": "2026-06-10T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.82,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0210",
+      "date": "2026-06-11T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.3,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0211",
+      "date": "2026-06-12T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.19,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0212",
+      "date": "2026-06-12T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 579.83,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0213",
+      "date": "2026-06-12T21:00:00",
+      "merchant": "Jahez",
+      "amount": 60.27,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0214",
+      "date": "2026-06-15T00:00:00",
+      "merchant": "Netflix",
+      "amount": 62,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0215",
+      "date": "2026-06-15T00:00:00",
+      "merchant": "Spotify",
+      "amount": 23,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0216",
+      "date": "2026-06-15T00:00:00",
+      "merchant": "Shahid",
+      "amount": 58,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0217",
+      "date": "2026-06-15T00:00:00",
+      "merchant": "iCloud+",
+      "amount": 11,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0218",
+      "date": "2026-06-15T00:00:00",
+      "merchant": "Google One",
+      "amount": 8,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Subscriptions",
+      "isSubscription": true
+    },
+    {
+      "id": "TX0219",
+      "date": "2026-06-15T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.46,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0220",
+      "date": "2026-06-16T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.37,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0221",
+      "date": "2026-06-17T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.0,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0222",
+      "date": "2026-06-18T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.37,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0223",
+      "date": "2026-06-19T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 25.04,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0224",
+      "date": "2026-06-19T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 526.25,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0225",
+      "date": "2026-06-19T21:00:00",
+      "merchant": "Jahez",
+      "amount": 119.05,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0226",
+      "date": "2026-06-22T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 21.52,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0227",
+      "date": "2026-06-23T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.85,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0228",
+      "date": "2026-06-24T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 27.01,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0229",
+      "date": "2026-06-25T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 26.71,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0230",
+      "date": "2026-06-26T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 22.17,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0231",
+      "date": "2026-06-26T18:00:00",
+      "merchant": "Tamimi",
+      "amount": 525.54,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Groceries"
+    },
+    {
+      "id": "TX0232",
+      "date": "2026-06-26T21:00:00",
+      "merchant": "Jahez",
+      "amount": 115.44,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Food Delivery"
+    },
+    {
+      "id": "TX0233",
+      "date": "2026-06-28T00:00:00",
+      "merchant": "Alinma Payroll",
+      "amount": 16500,
+      "currency": "SAR",
+      "type": "Credit",
+      "category": "Income"
+    },
+    {
+      "id": "TX0234",
+      "date": "2026-06-29T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 23.73,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0235",
+      "date": "2026-06-30T08:30:00",
+      "merchant": "Starbucks",
+      "amount": 24.25,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Coffee"
+    },
+    {
+      "id": "TX0236",
+      "date": "2026-05-12T17:30:00",
+      "merchant": "Extra",
+      "amount": 5299,
+      "currency": "SAR",
+      "type": "Debit",
+      "category": "Electronics"
+    }
+  ],
+  "subscriptions": [
+    {
+      "service": "Netflix",
+      "monthlyCost": 62,
+      "annualCost": 744,
+      "manageUrl": "https://www.netflix.com/account"
+    },
+    {
+      "service": "Spotify",
+      "monthlyCost": 23,
+      "annualCost": 276,
+      "manageUrl": "https://www.spotify.com/account"
+    },
+    {
+      "service": "Shahid",
+      "monthlyCost": 58,
+      "annualCost": 696,
+      "manageUrl": "https://shahid.mbc.net"
+    },
+    {
+      "service": "iCloud+",
+      "monthlyCost": 11,
+      "annualCost": 132,
+      "manageUrl": "https://support.apple.com/icloud"
+    },
+    {
+      "service": "Google One",
+      "monthlyCost": 8,
+      "annualCost": 96,
+      "manageUrl": "https://one.google.com"
+    }
+  ],
+  "expectedAIInsights": [
+    "Weekend spending is higher than weekdays.",
+    "Coffee purchases occur almost every weekday.",
+    "Subscriptions total 162 SAR/month.",
+    "Largest purchase: MacBook Air from Extra (5299 SAR)."
+  ]
+}
