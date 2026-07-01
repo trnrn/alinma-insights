@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "الإنماء | Alinma Insights" },
+      { title: "الإنماء انسايتس  | Alinma Insights" },
       {
         name: "description",
         content:
           "تجربة الإنماء إنسايتس — مركز الذكاء المالي داخل تطبيق مصرف الإنماء.",
       },
       { name: "author", content: "Alinma Bank" },
-      { property: "og:title", content: "الإنماء إنسايتس" },
+      { property: "og:title", content: "الإنماء انسايتس  | Alinma Insights" },
       {
         property: "og:description",
         content: "مركز الذكاء المالي المدعوم بالذكاء الاصطناعي داخل تطبيق الإنماء.",
@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "الإنماء انسايتس  | Alinma Insights" },
+      { name: "description", content: "Alinma Insights Hub is an AI-powered financial intelligence platform extending the Alinma Bank app." },
+      { property: "og:description", content: "Alinma Insights Hub is an AI-powered financial intelligence platform extending the Alinma Bank app." },
+      { name: "twitter:description", content: "Alinma Insights Hub is an AI-powered financial intelligence platform extending the Alinma Bank app." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b4284bcf-36ee-48da-a243-2ba9ad3ca375/id-preview-58af72ec--6e514ea3-4fee-4921-a4a1-2dc986674bb9.lovable.app-1782915384772.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b4284bcf-36ee-48da-a243-2ba9ad3ca375/id-preview-58af72ec--6e514ea3-4fee-4921-a4a1-2dc986674bb9.lovable.app-1782915384772.png" },
     ],
     links: [
       {
