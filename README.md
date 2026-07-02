@@ -1,4 +1,6 @@
- Alinma Insights
+ Alinma Insights 
+
+ **Live Demo:** https://alinma-insights-ai.lovable.app
 
  Overview
 Alinma Insights is an AI-powered financial intelligence center integrated into the Alinma Bank mobile application. It transforms raw banking transactions into personalized financial insights using Generative AI.
